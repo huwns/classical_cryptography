@@ -1,6 +1,5 @@
 /.vscode
 /based.py
-/caesar.py
 /caesar.txt
 /function_test.py
 /la_cifra_de.py
@@ -12,3 +11,5 @@
 /__pycache__
 googlemorse.py
 private_morse.py
+my_function.py
+substitution.py
