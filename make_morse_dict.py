@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup as bs
 
+# Reference(https://www.google.co.jp/ime/-.-.html)
 GOOGLE_MORSE = '''
 <div class="morse-table">
           <h3>和文モールス符号表</h3>
