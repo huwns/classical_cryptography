@@ -32,9 +32,13 @@ def vigenere_decrypt(ciphertext, key):
         count += 1
     return plaintext
 
-if __name__ == '__main__':
-    plaintext = 'Who\'s Mary? Where\'s John? I\'m Shelock Holmes!'
-    key = 'MORIARTY'
+
+def main():
+    plaintext = 'VIGENERE'
+    key = 'QIITA'
     ciphertext = vigenere_encrypt(plaintext, key)
     print(ciphertext)
     print(vigenere_decrypt(ciphertext, key))
+
+if __name__ == '__main__':
+    main()

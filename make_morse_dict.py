@@ -109,3 +109,6 @@ def google_morse_parser(msg):
                     value += '.'
             parsed_dict[key] = value
     return parsed_dict
+
+if __name__ == '__main__':
+    print(google_morse_parser(GOOGLE_MORSE))
